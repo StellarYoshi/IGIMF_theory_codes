@@ -13,11 +13,14 @@ It is further suggested to read the supplementary document of the galIMF module.
 ## Contents
 
 * IMF_sampling: Generates optimally sampled stellar Initial Mass Functions (IMFs)
-* IMF_sampling_empirical: Generates optimally sampled IMFs with custom most massive stellar mass. Can be used to generate stellar IMF samples that match empirical m_max-M_ecl relations
+* IMF_sampling_empirical: Generates optimally sampled IMFs with custom most massive stellar mass.\
+  Can be used to generate stellar IMF samples that match empirical m_max-M_ecl relations
 * ECMF_sampling: Generates optimally sampled Embedded Cluster Mass Functions (ECMFs) within the IGIMF theory as well as custom star cluster samples
 * cIMF_and_IGIMF_sampling: Generates optimally sampled Integrated Galactic IMFs (IGIMFs) and custom composite IMFs (cIMFs)
-* cIMF_generating_optimal: Calculates the optimally sampled cIMF of a custom star cluster sample. Allows to investigate the cIMF form without drawing stellar masses
-* cIMF_generating_random: Similar to cIMF_generating_optimal but for randomly sampled stellar IMFs. Allows for comparison between optimally and randomly sampled cIMFs
+* cIMF_generating_optimal: Calculates the optimally sampled cIMF of a custom star cluster sample.\
+  Allows to investigate the cIMF form without drawing stellar masses
+* cIMF_generating_random: Similar to cIMF_generating_optimal but for randomly sampled stellar IMFs.\
+  Allows for comparison between optimally and randomly sampled cIMFs
 
 All code is provided in the form of jupyter notebook files.
 
