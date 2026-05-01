@@ -4,7 +4,8 @@ This repository contains codes to generate data samples of stars for star cluste
 For a general introduction to the IGIMF theory and Optimal sampling, it is suggested to read the supplementary pdf.\
 This file also contains the mathematics concerning a reformulation of the Optimal sampling algorithm in order to generate ECMF samples with a custom most massive cluster mass. This may be useful to more easily create cluster distributions that match observational samples, especially on sub-galactic scales where the local most massive cluster mass won't always be the mass of the most massive cluster that formed galaxy-wide. This sampling procedure is not constrained to only the generation of star clusters but can also be used to generate e.g. molecular cloud masses and may therefore also be useful e.g. for the ICIMF theory.\
 Opposed to quantile-based sampling it does not take the number of data points $N$ as input, but the desired properties of the generated data (total sum, value of the largest data point).\
-The same modification to Optimal sampling can also be applied to create IMF samples with a custom most massive stellar mass. A corresponding code is provided here as well.\
+The same modification to Optimal sampling can also be applied to create IMF samples with a custom most massive stellar mass.\
+A corresponding code is provided here as well.\
 A generalized formulation and possible uses of this algorithm may be covered in the future.
 
 It is further suggested to read the supplementary document of the galIMF module.
